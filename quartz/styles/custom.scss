@@ -1,3 +1,76 @@
 @use "./variables.scss" as *;
+@use "sass:map";
 
-// put your custom CSS here!
+// Card grid for the homepage hub list.
+//
+// STRUCTURE ONLY. The card/grid shape is modelled on ssp.sh/brain, but the
+// colours and typography are deliberately NOT copied -- everything here draws
+// on Quartz's own theme variables and inherits the configured type scale, so
+// the cards follow this site's palette and switch with dark mode for free.
+//
+// WHY THIS IS PURE CSS AND NOT A <div> GRID IN THE MARKDOWN.
+// ssp.sh writes raw <div class="topic-grid"> into its markdown. That works,
+// but wikilinks are left literally unparsed inside a raw HTML block (measured:
+// 14 stray `[[...]]` in the output), so every link would have to become a
+// hand-written <a href> and stop being a real Obsidian link. Keeping the list
+// as plain markdown means popovers, backlinks and link resolution all keep
+// working, and the cards are made entirely from the <ul> Quartz emits after
+// the Hubs heading.
+
+h2#hubs + ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 3rem;
+  padding-left: 0;
+  list-style: none;
+
+  // The centre column is ~860px (1500px page less two 320px rails), so three
+  // 300px minimum cards will not fit via auto-fit. Columns are therefore set
+  // explicitly and stepped down by breakpoint rather than left to the grid to
+  // work out.
+  @media all and (max-width: #{map.get($breakpoints, desktop)}) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media all and (max-width: #{map.get($breakpoints, mobile)}) {
+    grid-template-columns: 1fr;
+  }
+
+  & > li {
+    margin: 0;
+    padding: 1rem 1.1rem;
+    border-radius: 8px;
+    background: var(--lightgray);
+    border-left: 4px solid var(--secondary);
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+
+    &::marker {
+      content: none;
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    // The hub link becomes the card title; the trailing count text falls to
+    // its own line underneath and is muted. No font-family or size is set --
+    // both inherit the site's configured typography.
+    & > a {
+      display: block;
+      font-weight: $boldWeight;
+      color: var(--secondary);
+      text-decoration: none;
+      margin-bottom: 0.35rem;
+      background-color: transparent;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    color: var(--gray);
+  }
+}
