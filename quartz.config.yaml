@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: brain.example.com  # placeholder until a real domain is chosen
+  baseUrl: tbar4.github.io/brain-wiki
   ignorePatterns:
     - private
     - templates
@@ -121,7 +121,7 @@ plugins:
   - source: "@quartz-community/og-image"
     enabled: true
   - source: "@quartz-community/cname"
-    enabled: true
+    enabled: false  # no custom domain -- served at the default tbar4.github.io/brain-wiki path
   - source: "@quartz-community/canvas-page"
     enabled: true
   - source: "@quartz-community/content-page"
