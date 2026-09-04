@@ -29,9 +29,9 @@ The China half is where the hub stops being theory, and it is thinner than its c
 **Gap:** that branch is an outline of a book never read into it. Fourteen of its 21 notes contain no prose at all — [[2208 Mao]], [[2205 Chinese Subversion of US]], [[2207 American Intelligence Failures]], [[2212 Principles for 100 Year Marathon]], [[2213 Beating China]] and nine more are titles above an empty *Related Notes* table. The headings name their source, and *[[The Hundred-Year Marathon]]* is in the vault as a literature note holding 16 highlights, cited by no permanent note anywhere. The scaffold came from a table of contents; the reading never landed. Filling it is what would give this half an argument instead of an inventory.
 
 <!-- GENERATED — everything below is rewritten nightly, do not edit -->
-## Notes (51)
+## Notes (52)
 
-**0000 Military Sciences** (29)
+**0000 Military Sciences** (30)
 
 - [[0104-i The greatest geopolitical tragedies]]
 - [[0104.4 Hegemony]]
@@ -57,6 +57,7 @@ The China half is where the hub stops being theory, and it is thinner than its c
 - [[0107.2-b America needs to develop new strategies for international aid and move away from the USAID model]]
 - [[0107.3 Economics in Geopolitics]]
 - [[0107.3-a Economic Sanctions stronger than the gun]]
+- [[0107.3-a1 Export controls may buy capability at the cost of escalation — a cornered China is more dangerous than a competitive one]]
 - [[0107.4 Power Politics]]
 - [[0107.4-a Desire for Peace can lead to war]]
 - [[0107.4-b World needs a "community of power"]]
@@ -88,14 +89,9 @@ The China half is where the hub stops being theory, and it is thinner than its c
 - [[2212 Principles for 100 Year Marathon]]
 - [[2213 Beating China]]
 
-## Recently added (6)
+## Recently added
 
-- [[2201 Economic Manipulation]] · 2026-09-03
-- [[2213 Beating China]] · 2026-09-03
-- [[2212 Principles for 100 Year Marathon]] · 2026-09-03
-- [[2211 China Fears and Tech Strategy]] · 2026-09-03
-- [[2210 Media & Academic Manipulation]] · 2026-09-03
-- [[2209 Chinese rise to Hegemon Strategy]] · 2026-09-03
+No usable recency signal. 52 of 52 notes in this hub share one file date (2026-09-03, a bulk frontmatter rewrite), and `created:` is absent from most of the corpus. Recency here would be an artefact of a tool run, not of when anything was written.
 
 ## Gaps detected
 

@@ -123,20 +123,30 @@ all.
 - [[4006.4 Good Keywords]]
 - [[4006.5 Overview Links]]
 
-## Engineering lessons (8)
+## Engineering lessons (18)
 
 - [[contexts/school/decisions/a-context-is-tags-plus-sources|A filter with no rules must select nothing, not everything]]
 - [[contexts/school/decisions/a-link-reason-is-required-only-where-it-is-asserted|Require a link's reason only where a human asserts the link]]
+- [[contexts/projects/thesis-app/decisions/a-reader-highlight-is-not-a-source|A reader highlight is not a source, and counting it as one inflates the library]]
+- [[contexts/tooling/decisions/a-skill-reaches-four-harnesses-a-command-reaches-one|Author capability as a skill: a skill reaches four harnesses, a command reaches one]]
+- [[contexts/projects/thesis-app/decisions/board-arrangement-and-corpus-claims-are-two-edge-kinds|Layout adjacency and an asserted claim are two edge kinds, and merging them is a one-way door]]
+- [[contexts/tooling/decisions/closed-threads-orphan-their-citations|Threads close in place, because deleting one orphans every citation into it]]
 - [[contexts/school/decisions/context-lens-splits-by-choice-not-by-subject|Two activities on one subject cannot be separated by a subject-derived taxonomy]]
+- [[contexts/tooling/decisions/decide-in-obsidian-file-in-claude|Decide in the reading surface, file in the writing one]]
 - [[contexts/tooling/decisions/essays-ripen-they-are-not-scheduled|The trigger is the only designable part of a writing practice — rank by ripeness, never by a calendar]]
 - [[contexts/tooling/decisions/para-not-adopted|Organise by actionability for a human browser and by topic for a model reader]]
+- [[contexts/tooling/decisions/permanent-notes-distil-into-mocs|`distilled` is a consumption flag, not a quality grade]]
+- [[contexts/projects/thesis-app/decisions/the-corpus-is-unlinked-not-the-design-wrong|When retrieval returns nothing, suspect the corpus before the design]]
 - [[contexts/school/decisions/thesis-app-design-philosophy|Organise a knowledge system around the acts a person performs, not the tables it stores]]
+- [[contexts/projects/thesis-app/decisions/thesis-app-has-no-folders-and-the-zettel-id-is-the-tree|The id is the tree; folders are only a rendering of it]]
 - [[contexts/tooling/decisions/vault-folders-by-pipeline-stage|Only one axis can be folders: pick the one that encodes a rule folders can enforce]]
 - [[contexts/school/decisions/writing-proposals-cross-domain-bridge|A disjointness test punishes accurate tagging: better metadata strangles the detector]]
+- [[contexts/projects/thesis-app/decisions/zettel-ids-live-in-a-column-not-the-title|The Luhmann id lives in a column, never in the title]]
+- [[contexts/projects/thesis-app/decisions/zettelkasten-ladder-adds-moc|Maps of Content complete the ladder, and distil is the operation at every rung]]
 
 ## Recently added
 
-No usable recency signal. 52 of 59 notes in this hub share one file date (2026-08-25, a bulk frontmatter rewrite), and `created:` is absent from most of the corpus. Recency here would be an artefact of a tool run, not of when anything was written.
+No usable recency signal. 59 of 59 notes in this hub share one file date (2026-09-03, a bulk frontmatter rewrite), and `created:` is absent from most of the corpus. Recency here would be an artefact of a tool run, not of when anything was written.
 
 ## Gaps detected
 

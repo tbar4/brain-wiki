@@ -8,16 +8,16 @@ created: 2026-09-03
 
 # AI and Reasoning Systems
 
-*growing · 16 principles*
+*growing*
 
 ## What this hub is
 
-Sixteen engineering records promoted out of `contexts/**/decisions/`, split
-almost evenly between two projects that never talked to each other: the
-Panoptes SDA-evaluation design inside the thesis (`contexts/school`,
-archived — the thesis was torn down and is being rebuilt from scratch) and
-the agent-tooling work behind this brain and thesis-app itself
-(`contexts/tooling`, live). The thesis records are stamped `superseded` —
+Engineering records promoted out of `contexts/**/decisions/`, drawn from
+three bodies of work that never talked to each other: the Panoptes
+SDA-evaluation design inside the thesis (`contexts/school`, archived — the
+thesis was torn down and is being rebuilt from scratch), the agent-tooling
+work behind this brain (`contexts/tooling`, live), and thesis-app's own model
+routing and retrieval (`contexts/projects/thesis-app`, live). The thesis records are stamped `superseded` —
 Trevor reset the whole design on 2026-08-26 — but the note attached to nearly
 every one of them says the same thing: *the reasoning survives the reset, and
 a rebuilt design will meet these questions again.* Read them as methodology,
@@ -97,24 +97,34 @@ prose through once.
 
 Nothing in the corpus matches this cluster yet.
 
-## Engineering lessons (16)
+## Engineering lessons (26)
 
 - [[contexts/tooling/decisions/a-handoff-can-be-stale-about-the-stack|A spec naming a path that exists but is no longer served fails silently and completely]]
 - [[contexts/tooling/decisions/adversarial-review-is-a-command|In multi-agent review, location beats reasoning — and a two-value verdict schema hides that nothing was refuted]]
 - [[contexts/career/decisions/ai-eval-engineering-target-role|In AI evaluation, small-sample inference is the scarce skill and harness craft is the abundant one]]
+- [[contexts/school/decisions/an-abstract-prohibition-does-not-constrain-a-model|An abstract prohibition does not constrain a model; name the failure in the prompt]]
 - [[contexts/tooling/decisions/atlas-is-agent-written-never-published|Make the violation structurally impossible, because a per-item sign-off gate is what let the last one through]]
 - [[contexts/tooling/decisions/autobrain-commits-only-derived-output|An unattended job may commit only what it can regenerate]]
 - [[contexts/school/decisions/benchmark-contamination-control|Canaries and held-out splits cannot be added retroactively — and a canary detects contamination without curing it]]
 - [[contexts/school/decisions/claude-code-backend-measured-and-rejected|A record about deployed configuration decays — check the deployment, not the record]]
+- [[contexts/tooling/decisions/claude-p-tool-restriction-flags-lie|Three of four ways to say 'no tools' do nothing, and the quietest is the one a careful person reaches for]]
 - [[contexts/school/decisions/closure-detection-has-no-signal-in-this-corpus|A signal that selects three quarters of the corpus is a prior, not a filter]]
 - [[contexts/tooling/decisions/concurrent-sessions-one-working-tree|Parallel agent sessions need four isolations, and the shared working tree is one of the lanes]]
+- [[contexts/tooling/decisions/copilot-agent-mode-not-vault-qa|A hardcoded context-only prompt is an uneditable default, not a mode you can tune]]
+- [[contexts/projects/thesis-app/decisions/exact-vector-search-beats-an-approximate-index|An approximate index answering from 1% of the table is silently wrong and not faster]]
 - [[contexts/school/decisions/final-model-list-and-api-budget|A single judge has no inter-rater statistic — design the self-preference bias out rather than measure it]]
 - [[contexts/tooling/decisions/find-is-shimmed-in-claude-sessions|Your interactive shell may not resolve the same binaries production does]]
 - [[contexts/school/decisions/harness-ladder-discipline-or-open-build|Make the metric and the reward literally one function, and do not build a harness]]
 - [[contexts/school/decisions/hindsight-contamination-and-as-of-construction|Hindsight contamination is a second axis, and no harness can flag it]]
 - [[contexts/school/decisions/kl-coefficient-and-reference-policy|With LoRA the reference policy is free, so KL becomes an ablation axis rather than a constant]]
+- [[contexts/projects/thesis-app/decisions/model-choice-is-sized-per-model|A context window is a property of the model and the card it runs on, not a global setting]]
+- [[contexts/projects/thesis-app/decisions/model-location-is-a-provider-property|A model's location is a property of its provider, not of a substring in its name]]
+- [[contexts/projects/thesis-app/decisions/ollama-egress-is-a-per-call-permit|Cloud egress is a per-call permit; a router chooses inside it, never around it]]
+- [[contexts/tooling/decisions/retrieval-ranks-empty-parents-above-written-leaves|Embedding title and frontmatter ranks empty parents above written leaves]]
 - [[contexts/school/decisions/second-coder-dropped-replacement-validity|A judge panel that agrees with itself proves shared priors as easily as a good codebook]]
+- [[contexts/projects/thesis-app/decisions/the-corpus-has-no-idea-sized-similarity-rung|A corpus can have no idea-sized similarity rung, which deletes the feature built on it]]
 - [[contexts/school/decisions/thesis-hardware-envelope|At fixed wall-clock a smaller policy buys more seeds and ablations than parameter count]]
+- [[contexts/projects/thesis-app/decisions/verify-local-models-against-the-real-daemon|A mocked model client proves nothing: mocks return the field the real model leaves empty]]
 
 ## Recently added (0)
 

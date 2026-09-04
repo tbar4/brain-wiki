@@ -67,7 +67,7 @@ compaction, WAL, MVCC. None of it has reached the slip box yet.
 
 ## Recently added
 
-No usable recency signal. 7 of 7 notes in this hub share one file date (2026-08-25, a bulk frontmatter rewrite), and `created:` is absent from most of the corpus. Recency here would be an artefact of a tool run, not of when anything was written.
+No usable recency signal. 7 of 7 notes in this hub share one file date (2026-09-03, a bulk frontmatter rewrite), and `created:` is absent from most of the corpus. Recency here would be an artefact of a tool run, not of when anything was written.
 
 ## Gaps detected
 

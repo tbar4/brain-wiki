@@ -56,9 +56,9 @@ Everything above was assembled from the leaves, because the root was never
 written. That absence is what this hub exists to fill.
 
 <!-- GENERATED — everything below is rewritten nightly, do not edit -->
-## Notes (87)
+## Notes (88)
 
-**0000 Military Sciences** (86)
+**0000 Military Sciences** (87)
 
 - [[0101.1.7 Office of Net Assessment Highly Valuable to U.S.]]
 - [[0101.1.8 We are in a Military Revolution and US leaders are failing]]
@@ -135,6 +135,7 @@ written. That absence is what this hub exists to fill.
 - [[0110.2 China RMA]]
 - [[0110.2-a China RMA writings most striking & prevalent]]
 - [[0110.2-b China winning the RMA War against America]]
+- [[0110.2-b1 China will lead the next Military Technological Revolution if the US military cannot reduce bureaucracy and change its strategy]]
 - [[0110.2.1 The Assassin's Mace]]
 - [[0110.3 RMA Theory]]
 - [[0110.3-a Many claiming most dramatic revolution warfare has begun]]
@@ -153,10 +154,11 @@ written. That absence is what this hub exists to fill.
 
 ## Recently added
 
-No usable recency signal. 82 of 87 notes in this hub share one file date (2026-08-25, a bulk frontmatter rewrite), and `created:` is absent from most of the corpus. Recency here would be an artefact of a tool run, not of when anything was written.
+No usable recency signal. 88 of 88 notes in this hub share one file date (2026-09-03, a bulk frontmatter rewrite), and `created:` is absent from most of the corpus. Recency here would be an artefact of a tool run, not of when anything was written.
 
 ## Gaps detected
 
+- **1 untagged note(s) in 0000 Military Sciences** — this cluster holds 87 of 326 notes there (27%), so these are plausibly members that no tag can see.
 - **2000 History is touched once** — one note, so the cluster reaches into it without arguing there.
 
 *Generated 2026-09-03 by `.brain/wiki-build.py`. Everything above the marker is hand-written; everything below it is not. A stale readout says so on its face.*

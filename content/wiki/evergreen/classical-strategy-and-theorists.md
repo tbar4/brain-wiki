@@ -192,10 +192,11 @@ The one place a theorist is weighed against a method is Trevor's own: [[0101.1.1
 
 ## Recently added
 
-No usable recency signal. 134 of 152 notes in this hub share one file date (2026-08-25, a bulk frontmatter rewrite), and `created:` is absent from most of the corpus. Recency here would be an artefact of a tool run, not of when anything was written.
+No usable recency signal. 152 of 152 notes in this hub share one file date (2026-09-03, a bulk frontmatter rewrite), and `created:` is absent from most of the corpus. Recency here would be an artefact of a tool run, not of when anything was written.
 
 ## Gaps detected
 
+- **2 untagged note(s) in 0000 Military Sciences** — this cluster holds 149 of 326 notes there (46%), so these are plausibly members that no tag can see.
 - **2000 History is touched once** — one note, so the cluster reaches into it without arguing there.
 
 *Generated 2026-09-03 by `.brain/wiki-build.py`. Everything above the marker is hand-written; everything below it is not. A stale readout says so on its face.*

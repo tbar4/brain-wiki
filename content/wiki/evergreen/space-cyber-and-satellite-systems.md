@@ -117,14 +117,9 @@ it. The reading has outrun the distilling.
 - [[0109.3.1 Communications Network Modeling important for Net Assessment]]
 - [[0110.3-a Many claiming most dramatic revolution warfare has begun]]
 
-## Recently added (6)
+## Recently added
 
-- [[0105.2.1 US Military's main priority should be more resilient networks]] · 2026-09-03
-- [[0105.1 Cyber Warfare]] · 2026-09-03
-- [[0105 Cyber, Comms, Systems, Networks Warfare]] · 2026-09-03
-- [[1012.3 USSF will need to contend with more Cyber attacks]] · 2026-09-03
-- [[1012 USSF Cyber Security]] · 2026-09-03
-- [[1011.3 Satellite Cyber Security Recommendations]] · 2026-09-03
+No usable recency signal. 49 of 49 notes in this hub share one file date (2026-09-03, a bulk frontmatter rewrite), and `created:` is absent from most of the corpus. Recency here would be an artefact of a tool run, not of when anything was written.
 
 ## Gaps detected
 

@@ -8,16 +8,16 @@ created: 2026-09-03
 
 # Security, Secrets and Disclosure
 
-*growing · 9 principles*
+*growing*
 
 ## What this hub is
 
-Nine engineering records, all promoted out of `contexts/**/decisions/`, about
+Engineering records, all promoted out of `contexts/**/decisions/`, about
 where a secret or a protected fact actually leaves a machine — not theory
 about security, but a running log of specific leaks and specific fixes from
-this vault's own tooling, from thesis-app (archived), and from the
-ontology-engine (archived). The projects behind them stopped; nothing here
-says the reasoning did.
+this vault's own tooling, from the workstation itself, from thesis-app, and
+from the archived ontology-engine. Some of the projects behind them stopped;
+nothing here says the reasoning did.
 
 **The repeated correction is that the mitigation gets aimed at the wrong
 layer first.** A password vault
@@ -63,7 +63,7 @@ security control,
 turned out to do nothing when actually run — the same lesson from the
 opposite direction: an unverified control is not a control.
 
-Two records round out the nine without fitting a thread above: what
+Two further records fit no thread above: what
 licensing risk in a regulated delivery actually reduces to
 ([[contexts/business/projects/ontology-engine/decisions/the-licence-worry-is-really-an-ato-worry|the-licence-worry-is-really-an-ato-worry]]) —
 an SBOM and ATO argument, not a legal one — and why redaction has to key on
@@ -77,14 +77,16 @@ before that rule was adopted.
 
 Nothing in the corpus matches this cluster yet.
 
-## Engineering lessons (9)
+## Engineering lessons (11)
 
+- [[contexts/projects/thesis-app/decisions/a-downgraded-permit-must-drop-the-choice-it-authorised|A guard that revokes a permission must also revoke what was chosen under it]]
 - [[contexts/tooling/decisions/allowed-tools-empty-does-not-disable-tools|An empty allowlist is not a denylist, and a headless agent call is not a model call]]
 - [[contexts/tooling/decisions/bitwarden-fixes-rotation-not-leaking|A password vault fixes rotation toil, not leaking — they are different problems]]
 - [[contexts/tooling/decisions/brain-reader-gates-disclosure-per-context|Gate disclosure per context with two fail-closed defaults: unlisted means local, unknown means remote]]
 - [[contexts/tooling/decisions/credential-guard-hook|Stop credential leaks at the harness, not by remembering — and know the guard covers file reads, not process introspection]]
 - [[contexts/school/decisions/filling-a-column-changed-what-can-leave-the-box|A retrieval change is a disclosure change]]
 - [[contexts/tooling/decisions/redaction-is-proximity-scoped|Redaction keys on context, not on character class — and a secret-finding tool is itself a leak vector]]
+- [[contexts/homelab/decisions/smb-share-runs-as-trevorb|Sharing as a sudo-capable account puts a root-equivalent password on the LAN]]
 - [[contexts/business/projects/ontology-engine/decisions/the-licence-worry-is-really-an-ato-worry|Open-source licence risk in a regulated delivery is really an SBOM and ATO argument]]
 - [[contexts/school/decisions/thesis-app-reads-the-brain|Ingest by allowlist, never by walk — and a supersession pointer must be followed when its target is itself superseded]]
 - [[contexts/business/projects/ontology-engine/decisions/two-role-postgres-enforcement|Append-only needs two database roles, or the REVOKE is theatre]]

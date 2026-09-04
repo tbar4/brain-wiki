@@ -186,14 +186,9 @@ that, [[1000 Spacepower]] is twelve links and no sentence, and
 - [[0107 Geopolitics]]
 - [[0107.4-b World needs a "community of power"]]
 
-## Recently added (6)
+## Recently added
 
-- [[1012.3 USSF will need to contend with more Cyber attacks]] · 2026-09-03
-- [[1012 USSF Cyber Security]] · 2026-09-03
-- [[1011.3 Satellite Cyber Security Recommendations]] · 2026-09-03
-- [[1011 Satellite Cyber Security]] · 2026-09-03
-- [[1010.2 Satellite Software Bus]] · 2026-09-03
-- [[1010 Satellite Software]] · 2026-09-03
+No usable recency signal. 117 of 117 notes in this hub share one file date (2026-09-03, a bulk frontmatter rewrite), and `created:` is absent from most of the corpus. Recency here would be an artefact of a tool run, not of when anything was written.
 
 ## Gaps detected
 
